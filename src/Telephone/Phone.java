@@ -10,8 +10,8 @@ public class Phone {
 
     public void addNote(String name, String[] number){
         book.put(name,new ArrayList<String>(Arrays.asList(number)));
-      //  Collections.addAll(numbers, number);
-      //  book.put(name, numbers);
+      // Collections.addAll(numbers, number);
+      // book.put(name, numbers);
     }
     public void getNomber(String name ){
         System.out.println(book.get(name));

@@ -26,7 +26,9 @@ public class Main {
         list.add("Mach");
         list.add("April");
         list.add("February");
-
+        list.add("May");
+        list.add("June");
+        list.add("July");
 
         for (int i=0; i<list.size();i++) {
             int count = 0;
